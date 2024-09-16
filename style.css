@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.box-one{
+    height: 400px;
+    width: 300px;
+    background-color: beige;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px dashed black;
+}
+
+.drag{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    cursor: move;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.box-two{
+    height: 400px;
+    width: 300px;
+    background-color: beige;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px dashed black;
+}
+
+
